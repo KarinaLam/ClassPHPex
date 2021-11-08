@@ -21,7 +21,7 @@
 
     $randnum = rand(0, count($messages)-1);
     $msg = getMessage($randnum);
-    echo("<h2>$msg</h2>");
-    >
+    echo ("<h2>Inspiration for the day: $msg</h2>");
+    ?>
   </body>
 </html>
